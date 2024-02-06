@@ -3,6 +3,7 @@
 int main() {
     
     int number;
+    
     float average, sum = 0.0;
     
     printf("Enter the number of array elements: ");
