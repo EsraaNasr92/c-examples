@@ -23,8 +23,17 @@ gcc example.c -o example
 Examples List
 
 - Hello world
+  description: print hello world;
 - Add two numbers
+  description: Enter 2 numbers and sum them
 - Print integer
+  description: Print integer number
 - Multiply floating-point number
+  description: Enter 2 floating point numbers and get the product
 - Find ASCII value
+  description: If you add 'A' it'll equal the value of 65
+- Array examples
+  - Enter the number of elements and print them
+  - Find the largest number in an array
+  - Get the sum and average from numbers in an array
   
