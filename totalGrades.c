@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-// Program to Display "Hello, World!"
+// Use a while loop to read  100  grades in an exam and find their total.
+
 int main(){
 
     int count = 1, total = 0, grade;
 
-    while(count <= 5){
+    while(count <= 100){
         printf("Enter student grade: ");
         scanf("%d", &grade);
         total += grade;
