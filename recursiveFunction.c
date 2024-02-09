@@ -10,9 +10,13 @@ int main(){
     printf("Enter the number: ");
     scanf("%d", &x);
 
-    int result = factorial(x);
-
-    printf("The result is: %d \n", result);
+    // Make sure the number is positive integer
+    if( x < 0 ){
+        printf("Please try to add positive number \n");
+    }else{
+        int result = factorial(x);
+        printf("The result is: %d \n", result);
+    }
 
     return 0;
 }
